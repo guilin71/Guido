@@ -1,3 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "http://sprechen-mit-guido.com/"
+languageCode = "de-de"
+title = "Sprechen mit Guido"
+theme = "ananke"
