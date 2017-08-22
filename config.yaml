@@ -1,0 +1,6 @@
+baseurl: http://hoffis-eck.de/Guido/
+languageCode: de-de
+title: Sprechen mit Guido
+theme: ananke
+publishDir: docs
+
