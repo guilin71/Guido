@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sprechen mit Guido</title>
-    <link>http://sprechen-mit-guido.com/tags/</link>
+    <link>http://hoffis-eck.de/Guido/tags/</link>
     <description>Recent content in Tags on Sprechen mit Guido</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     
-	<atom:link href="http://sprechen-mit-guido.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://hoffis-eck.de/Guido/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
