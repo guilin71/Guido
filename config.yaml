@@ -3,4 +3,4 @@ languageCode: de-de
 title: Sprechen mit Guido
 theme: ananke
 publishDir: docs
-
+enableRobotsTXT: true
