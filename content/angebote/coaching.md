@@ -1,9 +1,6 @@
-+++
-date = "2017-08-22T12:34:06+02:00"
-featured_image = "images/stuhl.jpg"
-tags = []
-title = "Coaching"
-+++
+---
+title: "Coaching"
+---
 
 Sie wissen genau, wohin es gehen soll, aber es fehlt etwas, der letzte Schliff, der letzte Anstoß.
 Sie wissen, dass sich etwas verändern muss, aber Sie wissen noch nicht in welche Richtung.
