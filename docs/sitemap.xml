@@ -4,51 +4,18 @@
   
   <url>
     <loc>http://hoffis-eck.de/Guido/abrechnung/</loc>
-    <lastmod>2017-08-22T12:34:06+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://hoffis-eck.de/Guido/angebote/achtsamkeit/</loc>
-    <lastmod>2017-08-22T12:34:06+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://hoffis-eck.de/Guido/anfahrt/</loc>
-    <lastmod>2017-08-22T12:34:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hoffis-eck.de/Guido/angebote/coaching/</loc>
-    <lastmod>2017-08-22T12:34:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hoffis-eck.de/Guido/kontakt/</loc>
-    <lastmod>2017-08-22T12:34:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hoffis-eck.de/Guido/angebote/lebensberatung/</loc>
-    <lastmod>2017-08-22T12:34:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hoffis-eck.de/Guido/angebote/psychotherapie/</loc>
-    <lastmod>2017-08-22T12:34:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hoffis-eck.de/Guido/%C3%BCber_mich/</loc>
-    <lastmod>2017-08-22T12:34:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hoffis-eck.de/Guido/</loc>
   </url>
   
   <url>
     <loc>http://hoffis-eck.de/Guido/angebote/</loc>
-    <lastmod>2017-08-22T12:34:06+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -58,18 +25,41 @@
   </url>
   
   <url>
+    <loc>http://hoffis-eck.de/Guido/angebote/coaching/</loc>
+  </url>
+  
+  <url>
     <loc>http://hoffis-eck.de/Guido/impressum/</loc>
   </url>
   
   <url>
+    <loc>http://hoffis-eck.de/Guido/kontakt/</loc>
+  </url>
+  
+  <url>
+    <loc>http://hoffis-eck.de/Guido/angebote/lebensberatung/</loc>
+  </url>
+  
+  <url>
+    <loc>http://hoffis-eck.de/Guido/angebote/psychotherapie/</loc>
+  </url>
+  
+  <url>
     <loc>http://hoffis-eck.de/Guido/</loc>
-    <lastmod>2017-08-22T12:34:06+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://hoffis-eck.de/Guido/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hoffis-eck.de/Guido/</loc>
+  </url>
+  
+  <url>
+    <loc>http://hoffis-eck.de/Guido/%C3%BCber_mich/</loc>
   </url>
   
 </urlset>
