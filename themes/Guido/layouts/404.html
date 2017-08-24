@@ -1,6 +1,10 @@
-{{ define "main" }}
-    <h1>Seite nicht gefunden</h1>
-    <article>
-        Die von Ihnen gesuchte Seite wurde nicht gefunden
-    </article>
+{{ define "redirect" }}
+<meta http-equiv="refresh" content="0; URL={{ .Site.BaseURL }}">
+{{ end }}
+
+{{ define "main"}}
+    <p>
+        Die gewünschte Seite konnte nicht gefunden werden.
+        <a href="{{ .Site.BaseURL }}">Zurück zur Startseite</a>
+    </p>
 {{ end }}

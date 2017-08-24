@@ -1,0 +1,14 @@
+{{ define "main" }}
+<!-- List -->
+<h1>{{ .Title }}</h1>
+<div class="liste">
+{{ range .Data.Pages }}
+    <div class="eintrag">
+    <a class="liste" href="{{ .URL }}"></a>
+    <h2>{{ .Title }}</h2>
+    <img src="{{ .Site.BaseURL }}images/{{ .Param "image" }}.jpg" alt="">
+    <p>{{ .Summary }}</p>
+    </div>
+{{ end }}
+</div>
+{{ end }}

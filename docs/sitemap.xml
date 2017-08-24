@@ -7,7 +7,7 @@
   </url>
   
   <url>
-    <loc>http://hoffis-eck.de/Guido/angebote/achtsamkeit/</loc>
+    <loc>http://hoffis-eck.de/Guido/leistungen/achtsamkeit/</loc>
   </url>
   
   <url>
@@ -15,17 +15,7 @@
   </url>
   
   <url>
-    <loc>http://hoffis-eck.de/Guido/angebote/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://hoffis-eck.de/Guido/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://hoffis-eck.de/Guido/angebote/coaching/</loc>
+    <loc>http://hoffis-eck.de/Guido/leistungen/coaching/</loc>
   </url>
   
   <url>
@@ -37,21 +27,16 @@
   </url>
   
   <url>
-    <loc>http://hoffis-eck.de/Guido/angebote/lebensberatung/</loc>
+    <loc>http://hoffis-eck.de/Guido/leistungen/lebensberatung/</loc>
   </url>
   
   <url>
-    <loc>http://hoffis-eck.de/Guido/angebote/psychotherapie/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hoffis-eck.de/Guido/</loc>
+    <loc>http://hoffis-eck.de/Guido/leistungen/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hoffis-eck.de/Guido/tags/</loc>
-    <priority>0</priority>
+    <loc>http://hoffis-eck.de/Guido/leistungen/psychotherapie/</loc>
   </url>
   
   <url>

@@ -9,6 +9,7 @@
     <meta name="ROBOTS" content="INDEX, FOLLOW">
 
     <meta name="seite" content="single.html">
+    {{ block "redirect" . }}{{ end }}
 
     <link href='{{ "style.css" | absURL }}' rel='stylesheet' type="text/css" />
 
@@ -16,27 +17,25 @@
     {{- template "_internal/opengraph.html" . -}}
   </head>
   <body>
-    <header style="background-image: url('{{ .Site.BaseURL }}images/berge.jpg');">
+    <header style="background-image: url('{{ .Site.BaseURL }}images/{{ $.Param "image" }}.jpg');">
       <a href="{{ .Site.BaseURL }}" ></a>
     </header>
-    <nav>
-      {{ partial "menu.html" . }}
-    </nav>
-    <!-- Code that all your templates share, like a header -->
+
     <main>
     {{ block "main" . }}
-      <!-- The part of the page that begins to differ between templates -->
-      <h1><span>{{ .Title }}</span></h1>
-      <article>
-      {{ .Content }}
-      </article>
+      <!-- Ohne -->
+      <h1>Ohne</h1>
     {{ end }}
     </main>
 
+    <nav>
+      {{ partial "menu.html" . }}
+    </nav>
+
     <footer>
-      {{/* [Kontakt]({{< relref "kontakt" >}}) •
-      [Anfahrt]({{< relref "anfahrt" >}}) •
-      [Impressum]({{< relref "impressum" >}}) */}}
+      <a href="{{ .Site.BaseURL }}kontakt/">Kontakt</a> •
+      <a href="{{ .Site.BaseURL }}anfahrt/">Anfahrt</a> •
+      <a href="{{ .Site.BaseURL }}impressum/">Impressum</a>
     </footer>
   </body>
 </html>
