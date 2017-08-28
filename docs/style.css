@@ -60,14 +60,15 @@ div.liste {
     width: 100%;
 }
 
-div.eintrag {
+a.eintrag {
+    display: block;
     float: left;
     width: calc(50% - 2em);
     height: 250px;
     margin: 0 2em 2em 0;
     overflow: hidden;
 }
-div.eintrag img {
+a.eintrag img {
     width: 9.7em;
     height: 9.7em;
     display: block;

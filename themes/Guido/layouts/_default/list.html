@@ -3,12 +3,11 @@
 <h1>{{ .Title }}</h1>
 <div class="liste">
 {{ range .Data.Pages }}
-    <div class="eintrag">
-    <a class="liste" href="{{ .URL }}"></a>
+    <a href="{{ .URL }}" class="eintrag">
     <h2>{{ .Title }}</h2>
-    <img src="{{ .Site.BaseURL }}images/{{ .Param "image" }}.jpg" alt="">
+    <img src="{{ .Site.BaseURL }}images/{{ .Param "image" }}_sm.jpg" alt="">
     <p>{{ .Summary }}</p>
-    </div>
+    </a>
 {{ end }}
 </div>
 {{ end }}
