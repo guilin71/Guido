@@ -1,9 +1,14 @@
 ---
 title: "Über mich"
+type: page
+
 ---
 
-![Ich bin der Guido](../images/passbild.jpg "Guido Lindner")
 
-# Lebenslauf #
+<img src="/sites/images/passbild.jpg" alt="Ich bin der Guido" title="Guido Lindner">
 
-Geboren, gelernt, gearbeitet, gereist, gespielt
+# Lebenslauf
+
+Geboren, gelernt, gearbeitet, gereist, gespielt.
+
+Check mich aus.
