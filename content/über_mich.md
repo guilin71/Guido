@@ -11,4 +11,5 @@ type: page
 
 Geboren, gelernt, gearbeitet, gereist, gespielt.
 
-Check mich aus.
+![](/images/passbild.jpg)
+
