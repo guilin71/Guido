@@ -2,10 +2,10 @@
 title: Kontakt
 type: page
 menu:
-  foot:
-    weight: 10
   left:
     weight: 40
+  foot:
+    weight: 10
 
 ---
 Schreiben Sie mir eine Mail, ich antworte garantiert.
