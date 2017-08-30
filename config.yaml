@@ -4,7 +4,7 @@ disableKinds:
 - taxonomy
 - taxonomyTerm
 - RSS
-- Sitemap
+- sitemap
 defaultContentLanguage: de
 languageCode: de-de
 title: Sprechen mit Guido
