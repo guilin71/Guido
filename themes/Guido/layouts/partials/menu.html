@@ -1,20 +1,17 @@
 <ul>
-    <li><a href="{{ .Site.BaseURL }}über_mich/">Über mich</a></li>
-    <li><a href="{{ .Site.BaseURL }}leistungen/">Leistungen</a></li>
+    {{ with .Site.GetPage "home" "" }}
+    <li><a href="{{ .URL }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+    {{ range .Site.Menus.left }}
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ with $.Site.GetPage "section" .Name }}
     <li class="sub">
       <ul>
-        <li><a href="{{ .Site.BaseURL }}leistungen/achtsamkeit/">Achtsamkeit</a></li>
-        <li><a href="{{ .Site.BaseURL }}leistungen/coaching/">Coaching</a></li>
-        <li><a href="{{ .Site.BaseURL }}leistungen/lebensberatung/">Lebensberatung</a></li>
-        <li><a href="{{ .Site.BaseURL }}leistungen/psychotherapie/">Psychotherapie</a></li>
+        {{ range where $.Site.RegularPages "Section" .Title }}
+        <li><a href="{{ .URL }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
       </ul>
     </li>
-    <li><a href="{{ .Site.BaseURL }}abrechnung/">Abrechnung</a></li>
-    <li><a href="{{ .Site.BaseURL }}kontakt/">Kontakt</a></li>
-
-    <!-- Alle Seiten
-    {{ range .Site.RegularPages }}
-    <li><a href="{{ .URL }}">{{ .Title }}</a></li>
     {{ end }}
-    -->
+    {{ end }}
 </ul>

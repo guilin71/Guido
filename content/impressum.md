@@ -1,7 +1,8 @@
 ---
 title: Impressum
-type: page
-
+menu:
+    foot:
+        weight: 30
 ---
 
 

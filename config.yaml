@@ -4,10 +4,8 @@ defaultContentLanguage:  de
 languageCode: de-de
 title: Sprechen mit Guido
 theme: Guido
-publishDir: docs
 enableRobotsTXT: true
-sectionPagesMenu: main
 pluralizelisttitles: false
 
 params:
-  image: stuhl
+  image: fluss

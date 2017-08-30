@@ -3,7 +3,7 @@
 <h1>{{ .Title }}</h1>
 <div class="liste">
 {{ range .Data.Pages }}
-    <a href="{{ .URL }}" class="eintrag">
+    <a href="{{ .URL }}" class="teaser">
     <h2>{{ .Title }}</h2>
     <img src="{{ .Site.BaseURL }}images/{{ .Param "image" }}_sm.jpg" alt="">
     <p>{{ .Summary }}</p>

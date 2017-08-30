@@ -1,5 +1,8 @@
 ---
 title: "Abrechnung von Therapiesitzungen"
+menu:
+    left:
+        weight: 30
 ---
 
 1. Privatversicherte

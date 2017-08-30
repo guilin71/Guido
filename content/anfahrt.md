@@ -1,5 +1,8 @@
 ---
 title: "Anfahrt"
+menu:
+    foot:
+        weight: 20
 ---
 
 ## Standort Jena ##
