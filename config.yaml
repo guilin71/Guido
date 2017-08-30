@@ -1,11 +1,15 @@
+---
 baseurl: http://hoffis-eck.de/Guido/
-disableKinds: [taxonomy, taxonomyTerm, RSS, Sitemap]
-defaultContentLanguage:  de
+disableKinds:
+- taxonomy
+- taxonomyTerm
+- RSS
+- Sitemap
+defaultContentLanguage: de
 languageCode: de-de
 title: Sprechen mit Guido
 theme: Guido
 enableRobotsTXT: true
 pluralizelisttitles: false
-
 params:
   image: fluss
